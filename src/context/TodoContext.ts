@@ -22,10 +22,10 @@ export const TodoContext = createContext<TodoContextType>({
       completed: false,
     },
   ],
-  addTodo: (Todo: TodoDataType) => {},
-  updateTodo: (id: number, Todo: TodoDataType) => {},
-  deleteTodo: (id: number) => {},
-  toggleComplete: (id: number) => {},
+  addTodo: () => {},
+  updateTodo: () => {},
+  deleteTodo: () => {},
+  toggleComplete: () => {},
 });
 
 export const useTodo = () => {
